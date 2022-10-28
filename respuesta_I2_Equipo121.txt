@@ -1,0 +1,10 @@
+Participantes:
+Alexander Lukasch Belbey
+Mauro Nicolas Luciano
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+R: Desde github se puede actualizar al estado del repo forkeado usando el boton "Sync" que aparece arriba del repo forkeado
+Desde git bash:
+Primero: configuro el remote del repo original con: git remote add upstream https://github.com/AlexLukasch/TP_SO_i2_Equipo121.git
+Segundo: hago fetch del repo original con: git fetch upstream
+Tercero: creo el merge del original con mi repo local con: git merge upstream/main
+Cuarto: pusheo los cambios a mi repo
