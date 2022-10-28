@@ -8,3 +8,10 @@ Primero: configuro el remote del repo original con: git remote add upstream http
 Segundo: hago fetch del repo original con: git fetch upstream
 Tercero: creo el merge del original con mi repo local con: git merge upstream/main
 Cuarto: pusheo los cambios a mi repo
+
+b- No hay gamma
+
+c- No hay gamma
+
+d- Se pierden si no haces el merge, osea descartando los commits. si haces el merge entonces vas a poder decicir que cambios mantener.
+
