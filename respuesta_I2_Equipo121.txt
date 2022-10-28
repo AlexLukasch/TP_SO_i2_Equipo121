@@ -15,3 +15,26 @@ c- No hay gamma
 
 d- Se pierden si no haces el merge, osea descartando los commits. si haces el merge entonces vas a poder decicir que cambios mantener.
 
+e-
+Alex Lukasch: [Crea el repo]
+git clone https://github.com/AlexLukasch/TP_SO_i2_Equipo121.git
+git add .
+git commit -m "commit del punto 4"
+git push
+Mauro Luciano: [Forkea el repo]
+git clone https://github.com/AlexLukasch/TP_SO_i2_Equipo121.git
+git add .
+git commit -m "modifico archivo fork.txt con mis datos"
+git push
+Alex Lukasch: [Agrego respuestas al archivo .txt]
+git add .
+git commit -m "Commit respuesta a)"
+git push
+Mauro Luciano: [Actualiza el repo local con los cambios del repo original de Alex]
+git remote add upstream https://github.com/AlexLukasch/TP_SO_i2_Equipo121.git
+git fetch upstream
+git merge upstream/main
+git push
+git add .
+git commit -m "agrego mas respuestas"
+git push
